@@ -1,0 +1,18 @@
+html, body {
+    height: 100%; /* Ensure the body takes up the full screen height */
+    margin: 0; /* Remove default margins for accurate display */
+  }
+  
+  .container {
+    display: flex; /* Enable Flexbox for easy centering */
+    justify-content: center; /* Horizontally center the content */
+    align-items: center; /* Vertically center the content */
+    width: 100%; /* Full width of the viewport */
+    height: 100vh; /* Full height of the viewport */
+    background-color: #f0f0f0; /* Example background color (optional) */
+  }
+  
+  .centered-text {
+    font-size: 36px; /* Adjust the font size as needed */
+  }
+  
